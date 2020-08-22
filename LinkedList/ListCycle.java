@@ -6,7 +6,7 @@
  *     ListNode(int x) { val = x; next = null; }
  * }
  */
-public class Solution {
+public class Solution { 
     public ListNode detectCycle(ListNode a) {
     
     ListNode slow = a;

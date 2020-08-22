@@ -48,7 +48,7 @@ public class Solution {
             for(i=B;i>=T;i--)
                 ans.get(i).set(L,f++);/// = f++;
             L++;
-            
+             
         }
         dir=(dir+1)%4;
     }
