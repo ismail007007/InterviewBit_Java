@@ -42,7 +42,7 @@ public class Solution {
             
         }
         else if(dir==3)
-        {
+        { 
             ArrayList<Integer> tmp =  new ArrayList<>();
 
             for(i=B;i>=T;i--)
