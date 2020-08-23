@@ -7,7 +7,7 @@ public class Solution {
         for(int i= 0; i< nums.size(); i++)
             arr[i] = String.valueOf(nums.get(i));
             
-        Arrays.sort(arr, new Comparator<String>(){public int compare(String a, String b){return (b+a).compareTo(a+b);}});
+        Arrays.sort(arr, (a, b) -> {return (b+a).compareTo(a+b);});
         
         StringBuilder sb = new StringBuilder();
         
